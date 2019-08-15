@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#00A3E8"
+>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="游戏说明"
+              android:textSize="30sp"
+              android:textColor="#FFFFFF"
+    />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="        玩家对一个各位不重复的四位数进行猜测，每次提交后会得到提示，此次有n位数字猜对且位置相同为na，有m位数字猜对但位置不对为mb，如：正确答案为1234，猜测1025则提示1a1b。"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/response"
+            android:layout_marginTop="30dp"
+    />
+
+</LinearLayout>
